@@ -1,32 +1,31 @@
-# Minimal Personal Website Creator
+# Personal Site Generator
 
 A minimal personal webpage creator that you can fully customize, written in python.
 
-I use this code to generate my personal website.
+I use this code to generate my personal website, [arthurbricq.com](https://arthurbricq.com).
 
-## To push your code
+## Repos
+
+This repo is the **source of truth**: the generator code and the `data/` it consumes.
+
+The generated site is hosted in a separate repo,
+[`personal-site`](https://github.com/arthurBricq/personal-site), which is served
+by GitHub Pages. That repo holds **only build output** — never edit it by hand.
+
+## To build and deploy
 
 ```console
-# Generate the site
+# 1. Generate the site (writes into ./outsite, which is gitignored here)
 python3 generate_site.py
 
-# push to github...
-git add outsite
-git commit ....
+# 2. Copy the build into the hosting repo and push it
+cp -R outsite/. ../arthurbricq/
+cd ../arthurbricq
+git add -A
+git commit -m "rebuild site"
 git push
-
-# Command to push the git branch
-git subtree push --prefix outsite origin gh-pages
 ```
 
-### Repair github pages after broken branch
-
-If the last command did not work (*for instance, could be the case if you changed the http settings*), you can run the following two commands.
-
-```console
-git push git@github.com:arthurBricq/minimal_personal_site.git `git subtree split --prefix outsite origin gh-pages`:gh-pages --force
-
-git subtree push --prefix outsite origin gh-pages
-```
-
-This will reset the subtree at `gh-pages` and push it again.
+GitHub Pages on the `personal-site` repo then serves the new content at
+arthurbricq.com (the `CNAME` file lives in `outsite/` and is copied along with
+the rest).
