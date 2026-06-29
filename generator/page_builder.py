@@ -77,7 +77,7 @@ class PageBuilder:
         html_list = ""
         html_list += (
             '<li class="project_item"><a href="./{}/{}.html">{}</a> </li>'.format(
-                self._name, title, title
+                self._name, title, _meta["title"]
             )
         )
         if "keywords" in _meta:
