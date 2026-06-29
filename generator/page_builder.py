@@ -2,7 +2,7 @@ import bs4
 import markdown2
 from pathlib import Path
 
-from utils import clear_folder
+from .utils import clear_folder
 
 
 def _process_children_page_title(meta):
