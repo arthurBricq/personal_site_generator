@@ -6,6 +6,8 @@ priority: 2
 featuredImage: images/chic_sensor.jpg
 github: https://github.com/arthurBricq/Roots
 youtube: https://youtu.be/_SN1TQER2w4
+start_date: 2021-01-10
+end_date: 2021-01-10
 ---
 
 # China Hardware Innovation Center

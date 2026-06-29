@@ -6,6 +6,8 @@ featuredImage: images/robottle.jpg
 priority: 2
 github: https://github.com/arthurBricq/ros_robottle
 youtube: https://youtu.be/XJpJSuhSZN4
+start_date: 2020-10-12
+end_date: 2021-01-16
 ---
 
 # Robottle

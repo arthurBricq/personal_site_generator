@@ -5,6 +5,8 @@ description: Again, written from scratch.
 priority: 1
 featuredImage: images/rboy.png
 github: https://github.com/chalune-dev/gameboy
+start_date: 2025-11-06
+end_date: 2025-11-25
 ---
 
 # rboy: Gameboy Emulator

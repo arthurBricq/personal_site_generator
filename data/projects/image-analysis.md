@@ -5,6 +5,8 @@ description: In this project, I had to analyse a video of a robot moving on top 
 priority: 4
 featuredImage: images/image-analysis.png
 github: https://github.com/arthurBricq/Image-Analysis-Project
+start_date: 2021-02-16
+end_date: 2021-02-16
 ---
 
 # Image Analysis Course Project

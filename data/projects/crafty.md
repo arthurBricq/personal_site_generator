@@ -5,6 +5,8 @@ description: Multiplayer minecraft clone written from scratch, using OpenGL
 priority: 1
 featuredImage: images/crafty.jpg
 github: https://github.com/arthurBricq/crafty
+start_date: 2024-07-26
+end_date: 2025-12-23
 ---
 
 # Minecraft Clone

@@ -2,7 +2,6 @@
 title: Personal Reading List
 description: My list of books to read and those that I have read.
 priority: 1
-date: 2023-02-25
 ---
 
 

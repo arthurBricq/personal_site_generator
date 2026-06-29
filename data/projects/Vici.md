@@ -6,6 +6,8 @@ priority: 3
 github: https://github.com/arthurBricq/Vici
 featuredImage: images/vici1.jpg
 youtube: https://youtu.be/t6okgj3G-gM
+start_date: 2020-04-03
+end_date: 2020-04-06
 ---
 
 # The Vici project (hackathon)

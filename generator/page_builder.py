@@ -1,5 +1,6 @@
 import bs4
 import markdown2
+from datetime import datetime
 from pathlib import Path
 
 from .utils import clear_folder
@@ -7,6 +8,28 @@ from .utils import clear_folder
 
 def _process_children_page_title(meta):
     return meta["title"].replace(" ", "-")
+
+
+def _format_month_year(iso):
+    return datetime.strptime(iso.strip(), "%Y-%m-%d").strftime("%b %Y")
+
+
+def _format_dates(meta):
+    """Return a display string for a child's date(s), or None if absent.
+
+    Projects use start_date/end_date (collapsed when equal); writings use date.
+    Any of these may be omitted, in which case nothing is shown.
+    """
+    start, end = meta.get("start_date"), meta.get("end_date")
+    if start or end:
+        start_s = _format_month_year(start) if start else None
+        end_s = _format_month_year(end) if end else None
+        if start_s and end_s:
+            return start_s if start_s == end_s else f"{start_s} – {end_s}"
+        return start_s or end_s
+    if meta.get("date"):
+        return _format_month_year(meta["date"])
+    return None
 
 
 class PageBuilder:
@@ -80,6 +103,9 @@ class PageBuilder:
                 self._name, title, _meta["title"]
             )
         )
+        dates = _format_dates(_meta)
+        if dates:
+            html_list += '<p class="date">{}</p>'.format(dates)
         if "keywords" in _meta:
             html_list += '<p class="keyword">{}</p>'.format(_meta["keywords"])
         if "github" in _meta:

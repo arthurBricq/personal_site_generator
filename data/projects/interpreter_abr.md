@@ -4,6 +4,8 @@ keywords: [Interpreter, Rust]
 description: This project contains the parser (from scratch) and the interpreter of a very small programming language that I designed myself. I did this project in order to learn more about language theory.
 priority: 2
 github: https://github.com/arthurBricq/Interpreter
+start_date: 2024-02-18
+end_date: 2024-03-18
 ---
 
 # Interpreter in Rust

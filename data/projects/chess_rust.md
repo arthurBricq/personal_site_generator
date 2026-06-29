@@ -5,6 +5,8 @@ description: A fully functional Chess Engine written completely from scratch in 
 priority: 1
 featuredImage: images/chess_engine.png
 github: https://github.com/arthurBricq/chess_rust
+start_date: 2023-04-02
+end_date: 2025-08-09
 ---
 
 # Chess Engine in Rust

@@ -5,6 +5,8 @@ description: A fully functional Chess Engine written completely from scratch in 
 priority: 2
 featuredImage: images/chess_engine.png
 github: https://github.com/arthurBricq/chess
+start_date: 2022-02-27
+end_date: 2022-02-27
 ---
 
 # Chess Engine in C++

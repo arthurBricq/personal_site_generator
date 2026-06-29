@@ -5,6 +5,8 @@ description: Data Science Project, rewarded as in the 'best 10 course projects' 
 priority: 4
 github: https://github.com/epfl-ada/ada-2020-project-milestone-p3-p3_chic
 youtube: https://youtu.be/gfrJvs2dMmM
+start_date: 2020-11-24
+end_date: 2020-12-18
 ---
 
 # Applied Data Science

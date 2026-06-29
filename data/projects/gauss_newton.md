@@ -4,6 +4,8 @@ keywords: [Python]
 description: A fully functional yet minimal gauss newton solver
 priority: 3
 github: https://github.com/arthurBricq/minimalGaussNewton
+start_date: 2023-03-21
+end_date: 2023-03-21
 ---
 
 # Minimal Gauss-Newton solver

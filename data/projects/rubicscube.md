@@ -5,6 +5,8 @@ description: If you forgot your cube but have access to a GPU, then use this toy
 priority: 2
 featuredImage: images/rubicscube.png
 github: https://github.com/arthurBricq/RubicsCube
+start_date: 2024-07-23
+end_date: 2024-07-25
 ---
 
 # Rubics Cube in C++ with OpenGL

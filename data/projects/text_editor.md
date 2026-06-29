@@ -5,6 +5,8 @@ description: I was looking for a challenging project that would at the same time
 priority: 2
 featuredImage: images/red.png
 github: https://github.com/arthurBricq/red
+start_date: 2023-11-15
+end_date: 2023-11-15
 ---
 
 # Vim-like Text Editor in Rust

@@ -6,6 +6,8 @@ priority: 4
 featuredImage: images/minehunter2.jpeg
 github: https://github.com/arthurBricq/Demineur
 
+start_date: 2018-07-13
+end_date: 2019-07-02
 ---
 
 # Mine Hunter

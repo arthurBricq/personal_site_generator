@@ -157,6 +157,12 @@ br {
 	padding-left: 50px;
 }
 
+.date {
+	color: gray;
+	font-size: 16px;
+	padding-left: 50px;
+}
+
 .new_project {
 	margin-bottom: 50px;
 	padding-bottom: 50px;

@@ -5,6 +5,8 @@ description: I wanted to see how difficult it would be to write an CPU equivalen
 priority: 1
 featuredImage: images/engine.png
 github: https://github.com/arthurBricq/GameEngine
+start_date: 2024-02-19
+end_date: 2024-02-19
 ---
 
 # Custom Game Engine framework
