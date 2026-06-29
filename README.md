@@ -12,6 +12,12 @@ The generated site is hosted in a separate repo,
 [`personal-site`](https://github.com/arthurBricq/personal-site), which is served
 by GitHub Pages. That repo holds **only build output** — never edit it by hand.
 
+## Setup
+
+```console
+pip install -r requirements.txt
+```
+
 ## To build and deploy
 
 ```console
