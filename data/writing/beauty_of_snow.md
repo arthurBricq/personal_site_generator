@@ -2,7 +2,7 @@
 title: The beauty of snow
 description: Pictures of snow taken by me
 date: 2023-03-28
-priority: 1
+priority: 80
 author: Arthur Bricq
 ---
 

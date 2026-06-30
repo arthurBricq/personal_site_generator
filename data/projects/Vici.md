@@ -2,7 +2,7 @@
 title: Vici
 keywords: [Swift, Python, Django, iOS]
 description: During a 3 days hackhathon, we developed a mobile app to help local stores gain visibility. 
-priority: 3
+priority: 35
 github: https://github.com/arthurBricq/Vici
 featuredImage: images/vici1.jpg
 youtube: https://youtu.be/t6okgj3G-gM

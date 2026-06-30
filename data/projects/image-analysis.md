@@ -2,7 +2,7 @@
 title: Image Analysis Final Project
 keywords: [Python, Computer Vision, Deep Neural Network]
 description: In this project, I had to analyse a video of a robot moving on top of numbers and operators to deduce an equation. I succedeed the project and its additional challenge and scored the best possible grade.
-priority: 4
+priority: 25
 featuredImage: images/image-analysis.png
 github: https://github.com/arthurBricq/Image-Analysis-Project
 start_date: 2021-02-16

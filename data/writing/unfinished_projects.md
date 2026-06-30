@@ -1,7 +1,7 @@
 ---
 title: Opinion about unfinished projects
 description: Or to how remain passionate about what we do as computer scientist
-priority: 1
+priority: 85
 date: 2024-02-21
 ---
 

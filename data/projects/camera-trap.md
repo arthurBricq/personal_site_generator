@@ -3,7 +3,7 @@ title: Wildlife Camera Trap
 keywords: [Python, Computer Vision, RPi]
 description: I love animals but it's difficult to take good pictures of them. So with my friend, we worked one weekend to design an animal trap
 featuredImage: images/bird.jpg
-priority: 4
+priority: 20
 ---
 
 # Camera Trap with a Rapsberry PI

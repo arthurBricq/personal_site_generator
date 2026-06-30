@@ -1,8 +1,8 @@
 ---
 title: Gameboy emulator in Rust
 keywords: [Chess, Rust]
-description: Again, written from scratch.
-priority: 1
+description: Again, written from scratch. Also written over 3 days for a hackathon. The goal of this project was to rewrite a gameboy from scratch and to learn more about low-level assembly and how a small 8 bit computer works.
+priority: 95
 featuredImage: images/rboy.png
 github: https://github.com/chalune-dev/gameboy
 start_date: 2025-11-06

@@ -100,6 +100,15 @@ class PageBuilder:
 
         # Find where to add information
         template = bs4.BeautifulSoup(html_text, "html.parser")
+
+        # Give each child page its own SEO title and description
+        title_tag = template.find("title")
+        if title_tag is not None:
+            title_tag.string = _meta["title"]
+        desc_tag = template.find("meta", attrs={"name": "description"})
+        if desc_tag is not None and "description" in _meta:
+            desc_tag["content"] = _meta["description"]
+
         box = template.find(id="content")
         if box is None: return
 
@@ -253,8 +262,8 @@ def create_page_with_children(
         meta = html.metadata
         children.append({"html": html, "meta": meta})
 
-    # sort the list of children and add them to the parent page
-    children = sorted(children, key=lambda element: element["meta"]["priority"])
+    # sort the list of children: highest priority first
+    children = sorted(children, key=lambda element: int(element["meta"]["priority"]), reverse=True)
 
     # create container with the html elements
     soup = bs4.BeautifulSoup(html_text, "html.parser")

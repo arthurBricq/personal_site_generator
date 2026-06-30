@@ -1,7 +1,7 @@
 ---
 title: Personal Reading List
 description: My list of books to read and those that I have read.
-priority: 0
+priority: 100
 ---
 
 

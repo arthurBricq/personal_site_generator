@@ -2,7 +2,7 @@
 title: 3D Rubics Cube with OpenGL
 keywords: [OpenGL, C++, 3D, Computer Graphics]
 description: If you forgot your cube but have access to a GPU, then use this toy to train
-priority: 2
+priority: 65
 featuredImage: images/rubicscube.png
 github: https://github.com/arthurBricq/RubicsCube
 start_date: 2024-07-23

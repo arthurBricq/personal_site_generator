@@ -2,7 +2,7 @@
 title: Mine Hunter
 keywords: [Swift, iOS, Mobile App]
 description: This project is a mobile game that I did with my brother when we were younger. Though it may not be the most professional recommendation, I had learned a lot while working on this enormous remake of the very famous Mine Sweeper.
-priority: 4
+priority: 30
 featuredImage: images/minehunter2.jpeg
 github: https://github.com/arthurBricq/Demineur
 

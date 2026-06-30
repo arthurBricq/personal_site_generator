@@ -1,8 +1,8 @@
 ---
 title: Crafty, a minecraft clone
-keywords: [Chess, Rust]
-description: Multiplayer minecraft clone written from scratch, using OpenGL
-priority: 1
+keywords: [ Chess, Rust ]
+description: A multiplayer Minecraft clone written from scratch, using OpenGL. We started this project with 3 other friends over a long hackathon weekend, and with time I kept improving it. This is the project that I'm most proud of, as it contains a complete rewrite of a multiplayer game, minecraft-like. One of my best programming experience ever.
+priority: 100
 featuredImage: images/crafty.jpg
 github: https://github.com/arthurBricq/crafty
 start_date: 2024-07-26

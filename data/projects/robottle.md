@@ -3,7 +3,7 @@ title: Robottle
 keywords: [Python, C++, ROS, Computer Vision, Deep Neural Network, Lidar]
 description: Robottle is an autonomous robot able to collect plastic bottles in a random environment. It was entirely done in a team of 3 students where I was the main developer. This project was showcased by NVIDEA as proof of concept for what a Jetson Nano Board can do ! 
 featuredImage: images/robottle.jpg
-priority: 2
+priority: 50
 github: https://github.com/arthurBricq/ros_robottle
 youtube: https://youtu.be/XJpJSuhSZN4
 start_date: 2020-10-12

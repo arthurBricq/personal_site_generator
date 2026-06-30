@@ -1,7 +1,7 @@
 ---
 title: The Day AI Began Executing Its Self-Written Code
 description: Or when developers lost the exclusive power to execute code
-priority: 1
+priority: 90
 date: 2025-01-24
 ---
 

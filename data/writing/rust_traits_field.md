@@ -1,7 +1,7 @@
 ---
 title: [Rust] Property with a type that implements a trait
 description: How to have a struct member with type that implements a trait in Rust
-priority: 1
+priority: 95
 date: 2023-02-25
 ---
 

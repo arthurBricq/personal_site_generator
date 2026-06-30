@@ -2,7 +2,7 @@
 title: China Hardware Innovation Center (CHIC)
 keywords: [Python, RPi, Arduino, IoT, PCB, Design]
 description: China Hardware Innovation Center, 1 year and a half long project in a team of 5 students from 3 different schools, to design and create a connected object.
-priority: 2
+priority: 60
 featuredImage: images/chic_sensor.jpg
 github: https://github.com/arthurBricq/Roots
 youtube: https://youtu.be/_SN1TQER2w4

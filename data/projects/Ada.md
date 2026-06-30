@@ -2,7 +2,7 @@
 title: Applied Data Science
 keywords: [Python, Pandas]
 description: Data Science Project, rewarded as in the 'best 10 course projects' (out of 138 projects).
-priority: 4
+priority: 15
 github: https://github.com/epfl-ada/ada-2020-project-milestone-p3-p3_chic
 youtube: https://youtu.be/gfrJvs2dMmM
 start_date: 2020-11-24

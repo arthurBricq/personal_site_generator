@@ -1,8 +1,8 @@
 ---
 title: Chess Engine in Rust
-keywords: [Chess, Rust]
-description: A fully functional Chess Engine written completely from scratch in Rust
-priority: 1
+keywords: [ Chess, Rust ]
+description: A fully functional Chess Engine written completely from scratch in Rust. Writing chess-engines as always been something i've enjoyed. This one is my most advanced chess engine.
+priority: 90
 featuredImage: images/chess_engine.png
 github: https://github.com/arthurBricq/chess_rust
 start_date: 2023-04-02
