@@ -9,19 +9,33 @@ from functools import partial
 
 from generator.page_builder import create_index_page
 from generator.page_builder import create_page_with_children
+from generator.page_builder import GITHUB_ICON
 from generator.utils import clean_output_dir
+
+GITHUB_URL = "https://github.com/arthurBricq"
+LINKEDIN_URL = "https://www.linkedin.com/in/arthur-bricq-737548153/"
+
+LINKEDIN_ICON = (
+    '<svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" aria-hidden="true">'
+    '<path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56'
+    'h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 110-4.13 2.06 2.06 0 '
+    '010 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 '
+    '0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>'
+)
 
 
 def get_header(name, root=".") -> str:
     return f"""
 <header>
-    {name}
+    <span class="site_name">{name}</span>
+    <a class="social" href="{GITHUB_URL}" aria-label="GitHub">{GITHUB_ICON}</a>
+    <a class="social" href="{LINKEDIN_URL}" aria-label="LinkedIn">{LINKEDIN_ICON}</a>
 </header>
 
 <nav>
-    <a href="{root}/resume.pdf">My resume</a>
+    <a href="{root}/resume.pdf">Resume</a>
+    <a href="{root}/projects.html">Portfolio</a>
     <a href="{root}/writings.html">Writing</a>
-    <a href="{root}/projects.html">Projects</a>
     <a href="{root}/index.html">About</a>
 </nav>
     """
