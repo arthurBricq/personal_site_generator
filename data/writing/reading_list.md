@@ -15,6 +15,10 @@ I read somewhere that keeping track of what you read is good for you. So here I 
 - **The Spear Cuts Through Water** by *Simon Jimenez* 
 - **The Raven Scholar** by *Antonia Hodgson*
 - **Of Mice and Men** by *John Steinbeck*
+- **Assassin's Apprentice** by *Robin Hobb*
+- **Royal Assassin** by *Robin Hobb*
+- **Assassin's Quest** by *Robin Hobb*
+- **A Memory Called Empire** by *Arkady Martine*
 
 ## 2025
 

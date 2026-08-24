@@ -2,7 +2,7 @@
 title: Heat Wave Monitor
 keywords: [ Web App, Climate, Data Viz ]
 description: A static web app to explore the heat-wave history of any location on Earth, from ~85 years of ERA5 daily temperatures fetched client-side. Detects heat-wave episodes against percentile thresholds of the 1991-2020 climate and renders them as interactive SVG charts.
-priority: 98
+priority: 85
 start_date: 2026-08-24
 end_date: 2026-08-24
 ---
