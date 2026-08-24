@@ -47,14 +47,17 @@ def main():
     parser.add_argument("--templates", default="./templates", help="Templates directory")
     parser.add_argument("--output", default="./outsite", help="Output directory")
     parser.add_argument("--name", default="Arthur Bricq", help="Site owner name (shown in the header)")
+    parser.add_argument("--keep", nargs="*", default=["heat-wave-monitor"],
+                        help="Extra output entries to preserve during the clean build "
+                             "(manually deployed apps, e.g. heat-wave-monitor)")
     args = parser.parse_args()
 
     print("Starting to generate site")
 
     header_getter = partial(get_header, args.name)
 
-    # clean build: wipe the output (preserving .git and CNAME of the hosting repo)
-    clean_output_dir(args.output)
+    # clean build: wipe the output (preserving .git, CNAME and manually deployed apps)
+    clean_output_dir(args.output, keep={".git", "CNAME", *args.keep})
 
     # create project page
     create_page_with_children(

@@ -37,7 +37,7 @@ def clean_output_dir(output, keep={".git", "CNAME"}):
             f"empty/scratch directory."
         )
 
-    print("Cleaning output dir (preserving .git, CNAME)")
+    print(f"Cleaning output dir (preserving {', '.join(sorted(keep))})")
     for entry in entries:
         if entry in keep:
             continue
