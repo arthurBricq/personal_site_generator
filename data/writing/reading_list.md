@@ -19,6 +19,7 @@ I read somewhere that keeping track of what you read is good for you. So here I 
 - **Royal Assassin** by *Robin Hobb*
 - **Assassin's Quest** by *Robin Hobb*
 - **A Memory Called Empire** by *Arkady Martine*
+- **Miroir de nos peines** by *Pierre Lemaitre*
 - **Piranesi** by *Susanna Clark*
 - **There Are Rivers in the Sky** by *Elif Shafak*
 - **Babel** by *R. F. Kuang*
